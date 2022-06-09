@@ -6,4 +6,4 @@
 * time : hh:mm:ss:aa
 
 Note :
-<aa> represents millisecond.
+**aa** represents millisecond.
