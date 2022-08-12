@@ -64,7 +64,7 @@ if __name__ == '__main__':
    root.title('Timestamper')
    ents = makeform(root, fields)
    root.bind('<Return>', (lambda event, e = ents: fetch(e)))
-   b_chemin = Button(root, text = 'Choisir un fichier', command=select_file)
+   b_chemin = Button(root, text = 'Choisir une video', command=select_file)
    b_chemin.pack(side = LEFT, padx = 5, pady = 5)
    b1 = Button(root, text = 'Démarrer',
       command=(lambda e = ents: add_date_time(e)))
